@@ -30,4 +30,24 @@ async function usersDataBase() {
     return data
 }
 let usersOfCinemania = usersDataBase()
+<<<<<<< HEAD
 console.log(usersOfCinemania)
+=======
+
+
+var isPlaying = false;
+var audio = new Audio('sounds/b-music.mp3');
+
+  document.querySelector(".footer-logo").addEventListener("click", function() {
+    if (isPlaying) {
+      audio.pause(); 
+      audio.currentTime = 0; 
+      isPlaying = false;
+    } else {
+      audio.play(); 
+      isPlaying = true;
+    }
+  });
+
+
+>>>>>>> 9d89140ee67a8e9f1ce35e8655bdca333554e541
