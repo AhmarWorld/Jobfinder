@@ -46,3 +46,20 @@ var audio = new Audio('sounds/b-music.mp3');
       isPlaying = true;
     }
   });
+
+  document.querySelector(".findjob").addEventListener("mouseover",function() {
+    document.querySelector(".findjob").style.color = 'black';
+  });
+
+  document.querySelector(".findjob").addEventListener("mouseout",function() {
+    document.querySelector(".findjob").style.color = '';
+  });
+
+
+  
+var inputElements = document.querySelectorAll("input");
+  inputElements.forEach(function(inputElement) {
+    inputElement.addEventListener("keypress", function(event) {
+      console.log(event.key);
+    });
+  });
