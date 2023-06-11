@@ -7,6 +7,7 @@ let regBtn = document.querySelector(`#regBtn`)
 let select = document.querySelector(`#exampleInputSelect1`)
 let random = Math.floor(Math.random() * 9000) + 1000;
 let inpDate = document.querySelector(`#exampleInputCalendar1`)
+console.log(regEmailInp,select,inpDate, regNickInp, regPassInp, sendCode)
 let date = new Date().getTime()
 function doTime() {
     inpDate.setAttribute(`max`, `${new Date().getFullYear(date)}-${new Date().getMonth(date)}-${new Date().getDay(date)}`)
