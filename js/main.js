@@ -46,5 +46,3 @@ var audio = new Audio('sounds/b-music.mp3');
       isPlaying = true;
     }
   });
-
-
