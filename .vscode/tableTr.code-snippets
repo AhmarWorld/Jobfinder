@@ -1,0 +1,14 @@
+{
+	"tableAbout": {
+		"scope": "html",
+		"prefix": "aboutTable",
+		"body": [
+			"<tr>",
+			"<td style=\"border: 1px #010b1d solid; padding: 10px\">Name</td>",
+			"<td style=\"border: 1px #010b1d solid; padding: 10px\">Surname</td>",
+			"<td style=\"border: 1px #010b1d solid; padding: 10px\">Phone</td>",
+		"</tr>",
+		],
+		"description": "Log output to console"
+	}
+}
