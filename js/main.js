@@ -63,3 +63,5 @@ var inputElements = document.querySelectorAll("input");
       console.log(event.key);
     });
   });
+
+  console.log(`Betters`)
