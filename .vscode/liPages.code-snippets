@@ -1,0 +1,10 @@
+{
+	"list number of page": {
+		"scope": "javascript,typescript",
+		"prefix": "pagesLi",
+		"body": [
+			"<li class=\"page-item\"><a class=\"page-link\" href=\"#\">02</a></li>"
+		],
+		"description": "Log output to console"
+	}
+}

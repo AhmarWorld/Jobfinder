@@ -1,0 +1,14 @@
+{
+	"added descriptors": {
+		"scope": "html",
+		"prefix": "addCriteri",
+		"body": [
+			"<label class=\"container\">Full Time",
+			"<input type=\"checkbox\" >",
+			"<span class=\"checkmark\"></span>",
+		"</label>",
+
+		],
+		"description": "Log output to console"
+	}
+}
