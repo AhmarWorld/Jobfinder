@@ -8,20 +8,6 @@ document.querySelectorAll('.head-btn2').forEach((item) => {
         location.replace('./authorization.html')
     })
 })
-var isPlaying = false;
-var audio = new Audio('../sounds/b-music.mp3');
-
-document.querySelector("#sound").addEventListener("click", ()=>{
-    if (isPlaying) {
-        audio.pause();
-        audio.currentTime = 0;
-        isPlaying = false;
-    } else {
-        audio.play();
-        isPlaying = true;
-    }
-})
-
 const API_KEY = "64389c256a6d20179644053a";
 const BASE_URL = "https://dummyapi.io/data/v1/";
 
@@ -44,3 +30,20 @@ async function usersDataBase() {
     return data
 }
 let usersOfCinemania = usersDataBase()
+
+
+var isPlaying = false;
+var audio = new Audio('sounds/b-music.mp3');
+
+  document.querySelector(".footer-logo").addEventListener("click", function() {
+    if (isPlaying) {
+      audio.pause(); 
+      audio.currentTime = 0; 
+      isPlaying = false;
+    } else {
+      audio.play(); 
+      isPlaying = true;
+    }
+  });
+
+
